@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    color: aliceblue;
+    backdrop-filter: brightness(.5);
+    letter-spacing: 4px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-colorq;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    top: 0;
+}
+
+.split.left {
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/13/iPhone-13-Download-Free-PNG.png");
+    background-size: cover;
+}
+
+.split.right {
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url("https://i5.walmartimages.com/asr/4014d1d5-2430-46cf-a2b6-526ebf2ff569.7fff876a828d1392c131ee20a014544b.jpeg");
+    background-size: cover;
+}
