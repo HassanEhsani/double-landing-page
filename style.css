@@ -22,7 +22,8 @@ h1 {
     font-size: 25px;
     border: 4px solid;
     cursor: pointer;
-    transition: 1s background-colorq;
+    transition: 1s background-color;
+    white-space: nowrap;
 }
 
 .btn:hover {
@@ -34,6 +35,7 @@ h1 {
     width: 50%;
     height: 100%;
     top: 0;
+    overflow: hidden;
 }
 
 .split.left {
@@ -50,4 +52,20 @@ h1 {
     background-color: lightblue;
     background-image: url("https://i5.walmartimages.com/asr/4014d1d5-2430-46cf-a2b6-526ebf2ff569.7fff876a828d1392c131ee20a014544b.jpeg");
     background-size: cover;
+}
+
+.active-left .left {
+    width: 75%;
+}
+
+.active-left .right {
+    width: 25%;
+}
+
+.active-right .left {
+    width: 25%;
+}
+
+.active-right .right {
+    width: 75%;
 }
