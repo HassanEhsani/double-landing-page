@@ -69,3 +69,7 @@ h1 {
 .active-right .right {
     width: 75%;
 }
+
+.left , .right{
+    transition: width 2s ease-in-out;
+}
